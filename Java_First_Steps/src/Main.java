@@ -31,6 +31,11 @@ public class Main {
         System.out.println("Teachers name: " + teacher.getName());
         System.out.println("Student age: " + student.getAge());
 
-        
+        student.setSalary((double)60);
+        teacher.setSalary((double)1350);
+
+        student.about();
+        teacher.about();
+
     }
 }
