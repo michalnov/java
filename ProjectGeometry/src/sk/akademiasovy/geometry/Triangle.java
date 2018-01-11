@@ -68,4 +68,32 @@ public class Triangle {
         else
             return false;
     }
+
+    public boolean isExisting()
+    {
+        if ((this.sideA+this.sideB>this.sideC)&&(this.sideB+this.sideC>this.sideA)&&(this.sideA+this.sideC>this.sideB))
+            return true;
+        else
+            return false;
+    }
+
+    public boolean isEqualSides()
+    {
+        if (this.sideC==this.sideB && this.sideA==this.sideC)
+            return true;
+        else
+            return false;
+    }
+
+    public boolean isIsosceles()
+    {
+        if (this.sideA == this.sideB)
+            return true;
+        else if (this.sideA == this.sideC)
+            return true;
+        else if (this.sideC == this.sideB)
+            return true;
+        else
+            return false;
+    }
 }
