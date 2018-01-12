@@ -1,9 +1,9 @@
 package sk.akademiasovy.main;
 
-import sk.akademiasovy.geometry.Circle;
-import sk.akademiasovy.geometry.Rectangle;
-import sk.akademiasovy.geometry.Square;
-import sk.akademiasovy.geometry.Triangle;
+import sk.akademiasovy.geometry2D.Circle;
+import sk.akademiasovy.geometry2D.Rectangle;
+import sk.akademiasovy.geometry2D.Square;
+import sk.akademiasovy.geometry2D.Triangle;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,11 +16,11 @@ public class Main {
         System.out.println(obj1.calculatePerimeter());
         System.out.println(obj1.calculateDiagonal());
 
-        Circle obj2 = new Circle(2.2f);
+        Circle obj2 = new Circle(12.5f);
         System.out.println("area: "+obj2.calculateArea());
         System.out.println("perimeter: "+obj2.calculatePerimeter());
         System.out.println("radius: "+obj2.calculateRadius());
-        System.out.println("diameter: "+obj2.getDiameter());
+        System.out.println("diameter: "+obj2.getRadius());
 
         Rectangle obj3 = new Rectangle(11.3f, 5.3f);
         System.out.println("side A: "+obj3.getSideA());

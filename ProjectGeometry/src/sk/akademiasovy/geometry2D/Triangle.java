@@ -1,6 +1,6 @@
-package sk.akademiasovy.geometry;
+package sk.akademiasovy.geometry2D;
 
-public class Triangle {
+public class Triangle implements Operation {
     private double sideA;
     private double sideB;
     private double sideC;
@@ -41,12 +41,14 @@ public class Triangle {
         sideC = 5;
     }
 
+    @Override
     public double calculatePerimeter()
     {
         double perimeter = this.sideA+this.sideB+this.sideC;
         return perimeter;
     }
 
+    @Override
     public double calculateArea()
     {
         double s = (calculatePerimeter() / 2);
@@ -79,6 +81,10 @@ public class Triangle {
 
     public boolean isEqualSides()
     {
+        if (isExisting() == false)
+            return false;
+        else
+
         if (this.sideC==this.sideB && this.sideA==this.sideC)
             return true;
         else
@@ -87,6 +93,10 @@ public class Triangle {
 
     public boolean isIsosceles()
     {
+        if (isExisting() == false)
+            return false;
+        else
+
         if (this.sideA == this.sideB)
             return true;
         else if (this.sideA == this.sideC)
@@ -96,4 +106,6 @@ public class Triangle {
         else
             return false;
     }
+
+
 }

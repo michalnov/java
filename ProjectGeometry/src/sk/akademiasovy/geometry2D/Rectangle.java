@@ -1,6 +1,6 @@
-package sk.akademiasovy.geometry;
+package sk.akademiasovy.geometry2D;
 
-public class Rectangle {
+public class Rectangle implements Operation, Diagonal {
     private float sideA;
     private float sideB;
 
@@ -35,18 +35,20 @@ public class Rectangle {
         this.sideB = 0;
     }
 
-    public float calculateArea()
+    @Override
+    public double calculateArea()
     {
-        float area = this.sideA * this.sideB;
+        double area = this.sideA * this.sideB;
+        return area;
+    }
+    @Override
+    public double calculatePerimeter()
+    {
+        double area = this.sideA + this.sideB;
         return area;
     }
 
-    public float calculatePerimeter()
-    {
-        float area = this.sideA + this.sideB;
-        return area;
-    }
-
+    @Override
     public double calculateDiagonal()
     {
         double diagonal = Math.sqrt((double) (this.sideA*this.sideB)+(this.sideA*this.sideB));

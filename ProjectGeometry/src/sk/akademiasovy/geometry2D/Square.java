@@ -1,6 +1,6 @@
-package sk.akademiasovy.geometry;
+package sk.akademiasovy.geometry2D;
 
-public class Square {
+public class Square implements Operation, Diagonal {
     private float sideA;
 
 
@@ -27,18 +27,20 @@ public class Square {
         this.sideA = sideA;
     }
 
-    public float calculateArea()
+    @Override
+    public double calculateArea()
     {
-        float area = (this.sideA * this.sideA);
+        double area = (this.sideA * this.sideA);
         return area;
     }
-
-    public float calculatePerimeter()
+    @Override
+    public double calculatePerimeter()
     {
-        float circuit = (this.sideA*4);
+        double circuit = (this.sideA*4);
         return circuit;
     }
 
+    @Override
     public double calculateDiagonal()
     {
         double diagonal = Math.sqrt((double) (this.sideA*this.sideA)+(this.sideA*this.sideA));
