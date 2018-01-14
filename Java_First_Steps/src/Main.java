@@ -34,8 +34,11 @@ public class Main {
         student.setSalary((double)60);
         teacher.setSalary((double)1350);
 
+        System.out.println();
         student.about();
         teacher.about();
+
+
 
     }
 }
