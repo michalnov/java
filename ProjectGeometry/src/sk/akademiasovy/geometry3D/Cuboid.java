@@ -60,4 +60,9 @@ public class Cuboid implements Operation3D, Diagonal3D {
             return (Math.sqrt((this.sideA*this.sideA)+(this.sideB*this.sideB)+(this.sideC*this.sideC)));
     }
 
+    public void abc()
+    {
+        
+    }
+
 }
