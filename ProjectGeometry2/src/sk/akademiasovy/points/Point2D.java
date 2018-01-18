@@ -67,6 +67,12 @@ public class Point2D {
         System.out.println("Distance from ROOT is: "+calculateZeroDistance());
     }
 
+    public void printInfo2D()
+    {
+        System.out.println("position X = "+this.x);
+        System.out.println("position Y = "+this.y);
+    }
+
     public void generateRandom()
     {
         Random random = new Random();
@@ -80,6 +86,32 @@ public class Point2D {
         return Math.sqrt(Math.pow(this.x,2)+Math.pow(this.y,2));
     }
 
-    
+    public double calculateDistaneFromPoint(Point2D other)
+    {
+        return Math.sqrt(Math.pow((this.x-other.getX()),2) + Math.pow((this.y-other.getY()),2));
+    }
+
+    public void doAxialSimetry(char type)
+    {
+        if (type == 'x' || type == 'y')
+        {
+            if (type == 'x')
+            {
+                this.y = (-1)*this.y;
+            }
+            else
+            {
+                this.x = (-1)*this.x;
+            }
+        } else {
+            return;
+        }
+    }
+
+    public void doPointReflection()
+    {
+        this.x = (-1)*this.x;
+        this.y = (-1)*this.y;
+    }
 
 }

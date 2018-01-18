@@ -62,7 +62,7 @@ public class Cuboid implements Operation3D, Diagonal3D {
 
     public void abc()
     {
-        
+
     }
 
 }
