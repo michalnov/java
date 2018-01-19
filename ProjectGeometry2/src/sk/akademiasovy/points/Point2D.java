@@ -2,7 +2,7 @@ package sk.akademiasovy.points;
 
 import java.util.Random;
 
-public class Point2D {
+public class Point2D implements Geometry{
     private int x;
     private int y;
 

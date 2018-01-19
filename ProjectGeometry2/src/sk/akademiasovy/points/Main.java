@@ -2,7 +2,7 @@ package sk.akademiasovy.points;
 
 public class Main {
     public static void main(String[] args) {
-        Point2D A = new Point2D(2,2);
+        /*Point2D A = new Point2D(2,2);
         A.printInfo();
 
         Point2D B = new Point2D(-1,-1);
@@ -17,11 +17,8 @@ public class Main {
 
         //Point2D D = new Point2D()
 
-
         C.doAxialSimetry('x');
         C.printInfo();
-
-
 
         C.doPointReflection();
         C.printInfo();
@@ -36,7 +33,30 @@ public class Main {
         System.out.println("distance From Zero is: "+BB.calculateZeroDistance());
         System.out.println("distance between A and B is: "+AA.calculatePointsDistance(BB));
 
-        
+        */
+
+        //Object o1 = new Point2D();
+
+        Geometry g1 = new Point2D(5, -9);
+
+        ((Point2D)g1).printInfo();
+
+        System.out.println();
+        System.out.println();
+
+        Point3D[] array = new Point3D[11];
+        for (int i = 0; i < 10 ; i++)
+        {
+            array[i] = new Point3D();
+            array[i].generateRandom();
+        }
+
+        for (int i = 0; i < 10 ; i++)
+        {
+            array[i].printInfo();
+            System.out.println();
+        }
+
 
     }
 }
