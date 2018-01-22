@@ -36,7 +36,7 @@ public class Main {
         */
 
         //Object o1 = new Point2D();
-
+        /*
         Geometry g1 = new Point2D(5, -9);
 
         ((Point2D)g1).printInfo();
@@ -56,6 +56,24 @@ public class Main {
             array[i].printInfo();
             System.out.println();
         }
+        */
+
+        Point2D linePointA = new Point2D(2,5);
+        Point2D linePointB = new Point2D(4,7);
+        Line line1 = new Line(linePointA, linePointB);
+
+        // alebo sa to da aj takto ....
+
+        Point2D line2PointA = new Point2D(0,-5);
+        Line line2 = new Line(line2PointA, new Point2D(7,7)); // new point priamo ako vstupný parameter
+
+        Line line3 = new Line(1,2,3,4);
+
+        System.out.println("Lenght of line is: "+line3.getLineLenght());
+
+
+
+
 
 
     }
