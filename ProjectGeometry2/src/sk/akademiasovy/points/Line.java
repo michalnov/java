@@ -32,7 +32,7 @@ public class Line {
             return false;
     }
 
-    public boolean isParallelToX()
+    public boolean isParallelToY()
     {
         return (pointA.getX() == pointB.getX()); // da sa aj takto
     }

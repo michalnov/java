@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb008a4e-c15a-427f-9c75-d986fd54431f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sk/akademiasovy/points/Line.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sk/akademiasovy/points/Triangle.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/sk/akademiasovy/myDate/MyDate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/sk/akademiasovy/points/InterfaceTriangle.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/sk/akademiasovy/points/Line.java" afterPath="$PROJECT_DIR$/src/sk/akademiasovy/points/Line.java" />
       <change beforePath="$PROJECT_DIR$/src/sk/akademiasovy/points/Main.java" afterPath="$PROJECT_DIR$/src/sk/akademiasovy/points/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/sk/akademiasovy/points/Triangle.java" afterPath="$PROJECT_DIR$/src/sk/akademiasovy/points/Triangle.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyDate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/myDate/MyDate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="854">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="57">
+              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -52,7 +66,7 @@
       <file leaf-file-name="Point3D.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Point3D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
+            <state relative-caret-position="666">
               <caret line="41" column="51" lean-forward="false" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
               <folding>
                 <element signature="e#141#142#0" expanded="true" />
@@ -67,8 +81,8 @@
       <file leaf-file-name="Line.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Line.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="36" column="66" lean-forward="false" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+            <state relative-caret-position="612">
+              <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
               <folding>
                 <element signature="e#448#449#0" expanded="true" />
                 <element signature="e#511#512#0" expanded="true" />
@@ -79,11 +93,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="198" lean-forward="false" selection-start-line="24" selection-start-column="198" selection-end-line="24" selection-end-column="198" />
+            <state relative-caret-position="552">
+              <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+              <folding>
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterfaceTriangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/InterfaceTriangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,9 +145,11 @@
         <option value="$PROJECT_DIR$/src/sk/akademiasovy/points/Point3D.java" />
         <option value="$PROJECT_DIR$/src/sk/akademiasovy/points/Geometry.java" />
         <option value="$PROJECT_DIR$/src/sk/akademiasovy/points/Point2D.java" />
-        <option value="$PROJECT_DIR$/src/sk/akademiasovy/points/Main.java" />
-        <option value="$PROJECT_DIR$/src/sk/akademiasovy/points/Line.java" />
+        <option value="$PROJECT_DIR$/src/sk/akademiasovy/points/InterfaceTriangle.java" />
         <option value="$PROJECT_DIR$/src/sk/akademiasovy/points/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/sk/akademiasovy/points/Line.java" />
+        <option value="$PROJECT_DIR$/src/sk/akademiasovy/myDate/MyDate.java" />
+        <option value="$PROJECT_DIR$/src/sk/akademiasovy/points/Main.java" />
       </list>
     </option>
   </component>
@@ -143,6 +176,9 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,15 +195,26 @@
               <item name="ProjectGeometry2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectGeometry2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="akademiasovy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectGeometry2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectGeometry2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="akademiasovy" type="462c0819:PsiDirectoryNode" />
+              <item name="myDate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectGeometry2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectGeometry2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="akademiasovy" type="462c0819:PsiDirectoryNode" />
               <item name="points" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -314,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516351250605</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Project Geometry2 work in progress">
+      <created>1516623563367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516623563367</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -323,12 +377,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17075665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17075665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -344,7 +399,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -356,13 +410,81 @@
     <MESSAGE value="Project Points Initialization" />
     <MESSAGE value="Project Points Added Points3D" />
     <MESSAGE value="Project Points work in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Points work in progress" />
+    <MESSAGE value="Project Geometry2 work in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Geometry2 work in progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Point2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="method#Point2D#1;class#Point2D#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Geometry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Point3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="41" column="51" lean-forward="false" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="36" column="66" lean-forward="false" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+          <folding>
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Point2D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1134">
@@ -474,7 +596,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Point3D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
+        <state relative-caret-position="666">
           <caret line="41" column="51" lean-forward="false" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
           <folding>
             <element signature="e#141#142#0" expanded="true" />
@@ -482,6 +604,14 @@
             <element signature="e#189#190#0" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/InterfaceTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -495,18 +625,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="854">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="552">
+          <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Line.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="66" lean-forward="false" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+        <state relative-caret-position="612">
+          <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
             <element signature="e#448#449#0" expanded="true" />
             <element signature="e#511#512#0" expanded="true" />
@@ -516,10 +653,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/myDate/MyDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="198" lean-forward="false" selection-start-line="24" selection-start-column="198" selection-end-line="24" selection-end-column="198" />
+        <state relative-caret-position="216">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/akademiasovy/points/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding />
         </state>
       </provider>

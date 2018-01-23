@@ -1,5 +1,7 @@
 package sk.akademiasovy.points;
 
+import sk.akademiasovy.myDate.MyDate;
+
 public class Main {
     public static void main(String[] args) {
         /*Point2D A = new Point2D(2,2);
@@ -71,7 +73,8 @@ public class Main {
 
         System.out.println("Lenght of line is: "+line3.getLineLenght());
 
-
+        MyDate today = new MyDate();
+        today.formatedDate();
 
 
 
